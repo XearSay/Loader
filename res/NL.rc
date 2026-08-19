@@ -1,0 +1,36 @@
+#include <winver.h>
+
+IDI_ICON1 ICON "nl.ico"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+#ifdef _DEBUG
+ FILEFLAGS VS_FF_DEBUG
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "Unkn0Wn"
+            VALUE "FileDescription", "Neverlose (neverlose.cc)"
+            VALUE "FileVersion", "1.3.3.7"
+            VALUE "InternalName", "nl"
+            VALUE "LegalCopyright", "(c) 2026 Unkn0Wn. MIT License."
+            VALUE "OriginalFilename", "Neverlose.exe"
+            VALUE "ProductName", "Neverlose"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
