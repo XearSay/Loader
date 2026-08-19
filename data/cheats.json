@@ -1,0 +1,58 @@
+[
+  {
+    "branches": [
+      {
+        "build_date": 1747003260,
+        "changelog": [
+          {
+            "changelog": "- Improved Rage Aimbot precision on moving targets\n- Improved overwall stability in Mirage / Inferno\n- Reworked Hitbox visualization (cleaner outlines)\n- Multipoint & Point Scale tuning for AWP / Scout",
+            "date": 1747043260
+          },
+          {
+            "changelog": "- Better enemy prioritization in cluttered fights\n- Reduced false autostop on stairs\n- Misc crash & hitch fixes from May cycle\n- Inventory sync after GC reconnect",
+            "date": 1746432000
+          },
+          {
+            "changelog": "- Softened default rage presets for MM\n- ESP occlusion pass polish\n- Config migrate for new multipoint keys\n- Docs: Load / branch picker notes",
+            "date": 1745827200
+          }
+        ],
+        "id": "release",
+        "lastlaunch": 1786148046,
+        "name": "Release",
+        "version": ""
+      }
+    ],
+    "cheat": "cs2",
+    "license": 0,
+    "lifetime": true,
+    "name": "Counter-Strike 2"
+
+  },
+  {
+    "branches": [
+      {
+        "build_date": 1679000000,
+        "changelog": [
+          {
+            "changelog": "- Added Addons",
+            "date": 1665365220
+          },
+          {
+            "changelog": "- Add notification when refreshing configs and loading addons.",
+            "date": 1664750400
+          }
+        ],
+        "id": "release",
+        "lastlaunch": 1786147100,
+        "name": "Release",
+        "version": ""
+      }
+    ],
+    "cheat": "csgo",
+    "license": 0,
+    "lifetime": true,
+    "name": "Counter-Strike: Global Offensive",
+    "selected_branch": "release"
+  }
+]
